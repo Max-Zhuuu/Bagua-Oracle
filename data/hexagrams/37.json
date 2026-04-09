@@ -1,0 +1,37 @@
+{
+  "number": 37,
+  "name_zh": "家人",
+  "name_full": "风火家人",
+  "structure": "巽上离下",
+  "judgment": "利女贞。",
+  "lines": [
+    {
+      "position": "初九",
+      "text": "闲有家，悔亡。"
+    },
+    {
+      "position": "六二",
+      "text": "无攸遂，在中馈，贞吉。"
+    },
+    {
+      "position": "九三",
+      "text": "家人嗃嗃，悔厉吉；妇子嘻嘻，终吝。"
+    },
+    {
+      "position": "六四",
+      "text": "富家，大吉。"
+    },
+    {
+      "position": "九五",
+      "text": "王假有家，勿恤，吉。"
+    },
+    {
+      "position": "上九",
+      "text": "有孚威如，终吉。"
+    }
+  ],
+  "yong": null,
+  "tuan": "",
+  "xiang": "",
+  "wenyan": null
+}

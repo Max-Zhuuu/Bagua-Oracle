@@ -1,0 +1,37 @@
+{
+  "number": 10,
+  "name_zh": "履",
+  "name_full": "天泽履",
+  "structure": "乾上兑下",
+  "judgment": "履虎尾，不咥人，亨。",
+  "lines": [
+    {
+      "position": "初九",
+      "text": "素履，往无咎。"
+    },
+    {
+      "position": "九二",
+      "text": "履道坦坦，幽人贞吉。"
+    },
+    {
+      "position": "六三",
+      "text": "眇能视，跛能履，履虎尾咥人，凶。武人为于大君。"
+    },
+    {
+      "position": "九四",
+      "text": "履虎尾，愬愬，终吉。"
+    },
+    {
+      "position": "九五",
+      "text": "夬履，贞厉。"
+    },
+    {
+      "position": "上九",
+      "text": "视履考祥，其旋元吉。"
+    }
+  ],
+  "yong": null,
+  "tuan": "",
+  "xiang": "",
+  "wenyan": null
+}

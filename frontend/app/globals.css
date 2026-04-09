@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bone: #f5f1e8;
+    --ink: #1a1a1a;
+    --jade: #2d4a3e;
+  }
+
+  body {
+    @apply bg-bone text-ink;
+  }
+}

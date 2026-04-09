@@ -1,0 +1,37 @@
+{
+  "number": 23,
+  "name_zh": "剥",
+  "name_full": "山地剥",
+  "structure": "艮上坤下",
+  "judgment": "不利有攸往。",
+  "lines": [
+    {
+      "position": "初六",
+      "text": "剥床以足，蔑贞凶。"
+    },
+    {
+      "position": "六二",
+      "text": "剥床以辨，蔑贞凶。"
+    },
+    {
+      "position": "六三",
+      "text": "剥之，无咎。"
+    },
+    {
+      "position": "六四",
+      "text": "剥床以肤，凶。"
+    },
+    {
+      "position": "六五",
+      "text": "贯鱼，以宫人宠，无不利。"
+    },
+    {
+      "position": "上九",
+      "text": "硕果不食，君子得舆，小人剥庐。"
+    }
+  ],
+  "yong": null,
+  "tuan": "",
+  "xiang": "",
+  "wenyan": null
+}

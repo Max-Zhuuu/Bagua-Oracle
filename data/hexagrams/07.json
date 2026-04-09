@@ -1,0 +1,37 @@
+{
+  "number": 7,
+  "name_zh": "师",
+  "name_full": "地水师",
+  "structure": "坤上坎下",
+  "judgment": "贞，丈人吉，无咎。",
+  "lines": [
+    {
+      "position": "初六",
+      "text": "师出以律，否臧凶。"
+    },
+    {
+      "position": "九二",
+      "text": "在师中，吉，无咎。王三锡命。"
+    },
+    {
+      "position": "六三",
+      "text": "师或舆尸，凶。"
+    },
+    {
+      "position": "六四",
+      "text": "师左次，无咎。"
+    },
+    {
+      "position": "六五",
+      "text": "田有禽，利执言，无咎。长子帅师，弟子舆尸，贞凶。"
+    },
+    {
+      "position": "上六",
+      "text": "大君有命，开国承家，小人勿用。"
+    }
+  ],
+  "yong": null,
+  "tuan": "",
+  "xiang": "",
+  "wenyan": null
+}

@@ -1,0 +1,37 @@
+{
+  "number": 1,
+  "name_zh": "乾",
+  "name_full": "乾为天",
+  "structure": "乾上乾下",
+  "judgment": "元亨，利贞。",
+  "lines": [
+    {
+      "position": "初九",
+      "text": "潜龙勿用。"
+    },
+    {
+      "position": "九二",
+      "text": "见龙在田，利见大人。"
+    },
+    {
+      "position": "九三",
+      "text": "君子终日乾乾，夕惕若厉，无咎。"
+    },
+    {
+      "position": "九四",
+      "text": "或跃在渊，无咎。"
+    },
+    {
+      "position": "九五",
+      "text": "飞龙在天，利见大人。"
+    },
+    {
+      "position": "上九",
+      "text": "亢龙有悔。"
+    }
+  ],
+  "yong": "用九：见群龙无首，吉。",
+  "tuan": "",
+  "xiang": "",
+  "wenyan": null
+}

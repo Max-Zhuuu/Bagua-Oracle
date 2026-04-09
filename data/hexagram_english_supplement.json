@@ -1,0 +1,474 @@
+{
+  "1": {
+    "romanization": "Qian",
+    "parenthetical": "乾 ䷀ Heaven",
+    "example_topics": [
+      "Two affairs decided by a single divination",
+      "My resolution at the beginning of Meiji",
+      "Agriculture on the year Meiji 16 [1883]",
+      "The negotiation with china by count Itō, ambassador"
+    ]
+  },
+  "2": {
+    "romanization": "Kun",
+    "parenthetical": "坤 ䷁ Earth",
+    "example_topics": [
+      "Fate of the Iwashimizu temple for Mr. Fukushima",
+      "My views for the Kyōdō Unyu Kaisha through the divination"
+    ]
+  },
+  "3": {
+    "romanization": "Zhun",
+    "parenthetical": "屯 ䷂ Fullness",
+    "example_topics": [
+      "On the Franco-Prussian war",
+      "My own fate, in prison",
+      "Fate of a certain bank",
+      "War between China and France",
+      "Takashima’s misinterpretation"
+    ]
+  },
+  "4": {
+    "romanization": "Meng",
+    "parenthetical": "蒙 ䷃ Infancy",
+    "example_topics": [
+      "Mode of education of his son (for Mr. Nagai)",
+      "Return of our ransom from America"
+    ]
+  },
+  "5": {
+    "romanization": "Xu",
+    "parenthetical": "需 ䷄ To wait",
+    "example_topics": [
+      "Fortune of Nishimura, Mitsushe, and me, while at Tsukudajima",
+      "Suicide of Mr. Goichi Nakano"
+    ]
+  },
+  "6": {
+    "romanization": "Song",
+    "parenthetical": "訟 ䷅ Lawsuit",
+    "example_topics": []
+  },
+  "7": {
+    "romanization": "Shi",
+    "parenthetical": "師 ䷆ Army",
+    "example_topics": [
+      "Mr. M. Mutsu’s views",
+      "Selection of ambassador for China"
+    ]
+  },
+  "8": {
+    "romanization": "Bi",
+    "parenthetical": "比 ䷇ Friendship",
+    "example_topics": []
+  },
+  "9": {
+    "romanization": "Xiaoxu",
+    "parenthetical": "小畜 ䷈ Small Stoppage",
+    "example_topics": []
+  },
+  "10": {
+    "romanization": "Lü",
+    "parenthetical": "履 ䷉ To tramp",
+    "example_topics": [
+      "Korean accident"
+    ]
+  },
+  "11": {
+    "romanization": "Tai",
+    "parenthetical": "泰 ䷊ Non-obstruction",
+    "example_topics": [
+      "Mr. Sugi’s going to Hawaii"
+    ]
+  },
+  "12": {
+    "romanization": "Pi",
+    "parenthetical": "否 ䷋ Obstruction",
+    "example_topics": [
+      "Punishment of Masajiro Suga",
+      "Fortune of Shintoism",
+      "On supplying the military caste with occupations"
+    ]
+  },
+  "13": {
+    "romanization": "Tongren",
+    "parenthetical": "同人 ䷌ Fellowship",
+    "example_topics": [
+      "My fate and future course in Meiji 3 [1870]",
+      "Comparison of the writings of the three writers, Messrs. Ichiroku, Sansyu, and Meikaku; and also the writing of Mr. Soejima"
+    ]
+  },
+  "14": {
+    "romanization": "Dayou",
+    "parenthetical": "大有 ䷍ A mighty possession",
+    "example_topics": [
+      "Discovery of lost money"
+    ]
+  },
+  "15": {
+    "romanization": "Qian",
+    "parenthetical": "謙 ䷎ Modesty",
+    "example_topics": []
+  },
+  "16": {
+    "romanization": "Yu",
+    "parenthetical": "豫 ䷏ Enjoyment",
+    "example_topics": [
+      "My punishment, while in prison"
+    ]
+  },
+  "17": {
+    "romanization": "Sui",
+    "parenthetical": "隨 ䷐ To obey",
+    "example_topics": [
+      "Marriage of Miss So-And-So"
+    ]
+  },
+  "18": {
+    "romanization": "Gu",
+    "parenthetical": "蠱 ䷑ Affairs",
+    "example_topics": []
+  },
+  "19": {
+    "romanization": "Lin",
+    "parenthetical": "臨 ䷒ To look Down",
+    "example_topics": []
+  },
+  "20": {
+    "romanization": "Guan",
+    "parenthetical": "觀 ䷓ To observe or to show",
+    "example_topics": [
+      "Existence or nonexistence of diviners in the country"
+    ]
+  },
+  "21": {
+    "romanization": "Shihe",
+    "parenthetical": "噬嗑 ䷔ To cram",
+    "example_topics": []
+  },
+  "22": {
+    "romanization": "Bi",
+    "parenthetical": "賁 ䷕ To embellish",
+    "example_topics": [
+      "Sickness of Mr. Sanzaemon Shimomura",
+      "The National Assembly. (Divined in April of Meiji 14 [1881])"
+    ]
+  },
+  "23": {
+    "romanization": "Bo",
+    "parenthetical": "剝 ䷖ To take away, to deprive",
+    "example_topics": []
+  },
+  "24": {
+    "romanization": "Fu",
+    "parenthetical": "復 ䷗ To return",
+    "example_topics": []
+  },
+  "25": {
+    "romanization": "Wuwang",
+    "parenthetical": "無妄 ䷘ Truthfulness, without insincerity",
+    "example_topics": [
+      "Keyamura, a wrestler",
+      "The boundary disputation between China and Russia",
+      "Contest between main and branch of a family",
+      "The traveler obtains a cattle and the villager a trouble"
+    ]
+  },
+  "26": {
+    "romanization": "Daxu",
+    "parenthetical": "大畜 ䷙ Great storing or stopping",
+    "example_topics": []
+  },
+  "27": {
+    "romanization": "Yi",
+    "parenthetical": "頤 ䷚ To feed",
+    "example_topics": [
+      "Arbitration of Yokohama gas question",
+      "Electric light"
+    ]
+  },
+  "28": {
+    "romanization": "Daguo",
+    "parenthetical": "大過 ䷛ Superabundance of the Great",
+    "example_topics": [
+      "The Japanese and Chinese entanglement"
+    ]
+  },
+  "29": {
+    "romanization": "Kan",
+    "parenthetical": "坎 ䷜ Difficulties",
+    "example_topics": [
+      "The expectation of money in prison",
+      "Mob of Saitama-ken"
+    ]
+  },
+  "30": {
+    "romanization": "Li",
+    "parenthetical": "離 ䷝ To be related to",
+    "example_topics": [
+      "The Saga Rebellion"
+    ]
+  },
+  "31": {
+    "romanization": "Xian",
+    "parenthetical": "鹹 ䷞ To impress, or all",
+    "example_topics": [
+      "The result of his loan, for Lord—"
+    ]
+  },
+  "32": {
+    "romanization": "Heng",
+    "parenthetical": "恆 ䷟ Permanence",
+    "example_topics": [
+      "The Accusation against Korea",
+      "Rain or no rain in August 1886",
+      "The Divination of Korea (shown to Minister Hanabusa Yoshitada)",
+      "Divination for Mr. Kin-Yō-gen",
+      "Destination of a loan"
+    ]
+  },
+  "33": {
+    "romanization": "Dun",
+    "parenthetical": "遯 ䷠ To Shun",
+    "example_topics": [
+      "Mr. Nagai’s baby",
+      "The English and Russian engagement at Afghanistan"
+    ]
+  },
+  "34": {
+    "romanization": "Dazhuang",
+    "parenthetical": "大壯 ䷡ The strength of the great",
+    "example_topics": [
+      "Hagi Rebellion",
+      "Calamity from thief of Mr. M. Sugi, Vice Minister of Imperial Household Ministry"
+    ]
+  },
+  "35": {
+    "romanization": "Jin",
+    "parenthetical": "晉 ䷢ To advance",
+    "example_topics": []
+  },
+  "36": {
+    "romanization": "Mingyi",
+    "parenthetical": "明夷 ䷣ An injured luminary",
+    "example_topics": [
+      "Taxation of Meiji 19 [1886]",
+      "Marriage of Mr. So-and-so",
+      "Fortune of Buddhism"
+    ]
+  },
+  "37": {
+    "romanization": "Jiaren",
+    "parenthetical": "家人 ䷤ Members of a family",
+    "example_topics": []
+  },
+  "38": {
+    "romanization": "Kui",
+    "parenthetical": "睽 ䷥ Dissimilarity",
+    "example_topics": [
+      "A certain affair of a certain person",
+      "Wife and daughter of a rich family"
+    ]
+  },
+  "39": {
+    "romanization": "Jian",
+    "parenthetical": "蹇 ䷦ Difficulty",
+    "example_topics": [
+      "How to pay his debt for a gentleman",
+      "Cholera at Yokohama in 1886 (1)",
+      "Cholera at Yokohama in 1886 (2)"
+    ]
+  },
+  "40": {
+    "romanization": "Jie",
+    "parenthetical": "解 ䷧ To open, to vanish away",
+    "example_topics": [
+      "Debt of Yamashiroya Wasuke",
+      "Anticipation of Kōsen Oshō’s topic of conversation, before seeing him"
+    ]
+  },
+  "41": {
+    "romanization": "Sun",
+    "parenthetical": "損 ䷨ Loss",
+    "example_topics": [
+      "Mr. Sanenobu Sugi’s sickness",
+      "Resolution of Mr.—",
+      "Destination of Yokohama Iron Works"
+    ]
+  },
+  "42": {
+    "romanization": "Yi",
+    "parenthetical": "益 ䷩ Gain",
+    "example_topics": [
+      "Market of Tanegami"
+    ]
+  },
+  "43": {
+    "romanization": "Guai",
+    "parenthetical": "夬 ䷪ To clear away, to dispose of",
+    "example_topics": [
+      "Management of treacherous employees",
+      "Result of debate of Mr. -",
+      "Utilization of Mr. Amamiya’s earnings"
+    ]
+  },
+  "44": {
+    "romanization": "Gou",
+    "parenthetical": "姤 ䷫ To meet",
+    "example_topics": [
+      "Entangling of Eastern Europe",
+      "Kindness rewarded by anger"
+    ]
+  },
+  "45": {
+    "romanization": "Cui",
+    "parenthetical": "萃 ䷬ To assemble",
+    "example_topics": [
+      "Railway bridge over Sumida of Ueno Line",
+      "Will a certain nobleman be able to visit foreign lands?"
+    ]
+  },
+  "46": {
+    "romanization": "Sheng",
+    "parenthetical": "升 ䷭ To ascend",
+    "example_topics": []
+  },
+  "47": {
+    "romanization": "Kun",
+    "parenthetical": "困 ䷮ To be in difficulty",
+    "example_topics": [
+      "Will Mr. — be infected with cholera?",
+      "Death of a cholera sufferer (for Mr. Fujita)"
+    ]
+  },
+  "48": {
+    "romanization": "Jing",
+    "parenthetical": "井 ䷯ A well",
+    "example_topics": [
+      "Life of a Nobleman",
+      "Disputation among the fishmongers of Yokohama",
+      "China and France on the Annam Affair"
+    ]
+  },
+  "49": {
+    "romanization": "Ge",
+    "parenthetical": "革 ䷰ To reform to renew",
+    "example_topics": [
+      "Which cause to belong, for a certain house at the Restoration War"
+    ]
+  },
+  "50": {
+    "romanization": "Ding",
+    "parenthetical": "鼎 ䷱ A three legged kettle",
+    "example_topics": [
+      "The detention of Messrs. D. Fujita and G. Nakano",
+      "Marriage of a friend",
+      "Tumult in Korea"
+    ]
+  },
+  "51": {
+    "romanization": "Zhen",
+    "parenthetical": "震 ䷲ Thunder",
+    "example_topics": [
+      "Difficulty of Lord —",
+      "Where have Mr. G. Yamada’s parents and sister gone?"
+    ]
+  },
+  "52": {
+    "romanization": "Gen",
+    "parenthetical": "艮 ䷳ To stop",
+    "example_topics": [
+      "Fortune of an officer",
+      "Looking at Fuji from Peak Otome"
+    ]
+  },
+  "53": {
+    "romanization": "Jian",
+    "parenthetical": "漸 ䷴ To proceed",
+    "example_topics": [
+      "Intermixture of foreigners",
+      "Mr. Jūichiro Wada’s fortune",
+      "Disease of Mr. Ujitaka Toda’s mother"
+    ]
+  },
+  "54": {
+    "romanization": "Guimei",
+    "parenthetical": "歸妹 ䷵ To give a daughter in marriage",
+    "example_topics": [
+      "Life of a public story-teller, Chōka Itō"
+    ]
+  },
+  "55": {
+    "romanization": "Feng",
+    "parenthetical": "豐 ䷶ Affluence",
+    "example_topics": [
+      "Condition of Yokohama Foreign Coin Transaction Company"
+    ]
+  },
+  "56": {
+    "romanization": "Lü",
+    "parenthetical": "旅 ䷷ A traveler",
+    "example_topics": [
+      "Warning of fire in a coal-mine",
+      "Fortune of Mr. Unshou",
+      "Fortune of a Nobleman’s friend"
+    ]
+  },
+  "57": {
+    "romanization": "Xun",
+    "parenthetical": "巽 ䷸ Meek",
+    "example_topics": [
+      "The 4th of Xun is the profit of three times the capital"
+    ]
+  },
+  "58": {
+    "romanization": "Dui",
+    "parenthetical": "兌 ䷹ To rejoice",
+    "example_topics": []
+  },
+  "59": {
+    "romanization": "Huan",
+    "parenthetical": "渙 ䷺ To dissipate",
+    "example_topics": [
+      "Shipwreck of Mrs. Kei Ōura"
+    ]
+  },
+  "60": {
+    "romanization": "Jie",
+    "parenthetical": "節 ䷻ Moderation",
+    "example_topics": [
+      "How to return his debt for a police officer"
+    ]
+  },
+  "61": {
+    "romanization": "Zhongfu",
+    "parenthetical": "中孚 ䷼ Truthful at heart",
+    "example_topics": [
+      "Marriage of a Nobleman"
+    ]
+  },
+  "62": {
+    "romanization": "Xiaoguo",
+    "parenthetical": "小過 ䷽ Superabundance of the small",
+    "example_topics": [
+      "Petition of Mr. Kikakudō",
+      "Petition of the Shintoists’ club"
+    ]
+  },
+  "63": {
+    "romanization": "Jiji",
+    "parenthetical": "既濟 ䷾ Consummation",
+    "example_topics": [
+      "Affairs of Europe",
+      "Delay of Mr. Haru Sakata’s arrival",
+      "Iwaiya’s payment"
+    ]
+  },
+  "64": {
+    "romanization": "Weiji",
+    "parenthetical": "未濟 ䷿ Not yet to be consummated",
+    "example_topics": [
+      "Subjugation of Korea"
+    ]
+  }
+}

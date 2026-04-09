@@ -1,0 +1,37 @@
+{
+  "number": 4,
+  "name_zh": "蒙",
+  "name_full": "山水蒙",
+  "structure": "艮上坎下",
+  "judgment": "亨。匪我求童蒙，童蒙求我；初筮告，再三渎，渎则不告。利贞。",
+  "lines": [
+    {
+      "position": "初六",
+      "text": "发蒙，利用刑人。用说桎梏，以往吝。"
+    },
+    {
+      "position": "九二",
+      "text": "包蒙，吉。纳妇，吉。子克家。"
+    },
+    {
+      "position": "六三",
+      "text": "勿用取女，见金夫，不有躬。无攸利。"
+    },
+    {
+      "position": "六四",
+      "text": "困蒙，吝。"
+    },
+    {
+      "position": "六五",
+      "text": "童蒙，吉。"
+    },
+    {
+      "position": "上九",
+      "text": "击蒙，不利为寇，利御寇。"
+    }
+  ],
+  "yong": null,
+  "tuan": "",
+  "xiang": "",
+  "wenyan": null
+}

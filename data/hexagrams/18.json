@@ -1,0 +1,37 @@
+{
+  "number": 18,
+  "name_zh": "蛊",
+  "name_full": "山风蛊",
+  "structure": "艮上巽下",
+  "judgment": "元亨。利涉大川；先甲三日，后甲三日。",
+  "lines": [
+    {
+      "position": "初六",
+      "text": "干父之蛊，有子考无咎，厉终吉。"
+    },
+    {
+      "position": "九二",
+      "text": "干母之蛊，不可贞。"
+    },
+    {
+      "position": "九三",
+      "text": "干父之蛊，小有悔，无大咎。"
+    },
+    {
+      "position": "六四",
+      "text": "裕父之蛊，往见吝。"
+    },
+    {
+      "position": "六五",
+      "text": "干父之蛊，用誉。"
+    },
+    {
+      "position": "上九",
+      "text": "不事王侯，高尚其事。"
+    }
+  ],
+  "yong": null,
+  "tuan": "",
+  "xiang": "",
+  "wenyan": null
+}

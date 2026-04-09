@@ -1,0 +1,37 @@
+{
+  "number": 8,
+  "name_zh": "比",
+  "name_full": "水地比",
+  "structure": "坎上坤下",
+  "judgment": "吉。原筮，元永贞。无咎。不宁方来，后夫凶。",
+  "lines": [
+    {
+      "position": "初六",
+      "text": "有孚比之，无咎。有孚盈缶，终来。有它，吉。"
+    },
+    {
+      "position": "六二",
+      "text": "比之自内，贞吉。"
+    },
+    {
+      "position": "六三",
+      "text": "比之匪人。"
+    },
+    {
+      "position": "六四",
+      "text": "外比之，贞吉。"
+    },
+    {
+      "position": "九五",
+      "text": "显比；王用三驱，失前禽，邑人不诫，吉。"
+    },
+    {
+      "position": "上六",
+      "text": "比之无首，凶。"
+    }
+  ],
+  "yong": null,
+  "tuan": "",
+  "xiang": "",
+  "wenyan": null
+}

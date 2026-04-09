@@ -1,0 +1,37 @@
+{
+  "number": 20,
+  "name_zh": "观",
+  "name_full": "风地观",
+  "structure": "巽上坤下",
+  "judgment": "盥而不荐。有孚顒若。",
+  "lines": [
+    {
+      "position": "初六",
+      "text": "童观，小人无咎，君子吝。"
+    },
+    {
+      "position": "六二",
+      "text": "窥观，利女贞。"
+    },
+    {
+      "position": "六三",
+      "text": "观我生，进退。"
+    },
+    {
+      "position": "六四",
+      "text": "观国之光，利用宾于王。"
+    },
+    {
+      "position": "九五",
+      "text": "观我生，君子无咎。"
+    },
+    {
+      "position": "上九",
+      "text": "观其生，君子无咎。"
+    }
+  ],
+  "yong": null,
+  "tuan": "",
+  "xiang": "",
+  "wenyan": null
+}

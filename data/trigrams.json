@@ -1,0 +1,10 @@
+{
+  "qian": {"name_zh": "乾", "pinyin": "Qián", "image": "天", "image_en": "Heaven",   "element": "metal", "attribute": "creative",   "direction": "NW"},
+  "kun":  {"name_zh": "坤", "pinyin": "Kūn",  "image": "地", "image_en": "Earth",    "element": "earth", "attribute": "receptive",  "direction": "SW"},
+  "zhen": {"name_zh": "震", "pinyin": "Zhèn", "image": "雷", "image_en": "Thunder",  "element": "wood",  "attribute": "arousing",   "direction": "E"},
+  "kan":  {"name_zh": "坎", "pinyin": "Kǎn",  "image": "水", "image_en": "Water",    "element": "water", "attribute": "abysmal",    "direction": "N"},
+  "gen":  {"name_zh": "艮", "pinyin": "Gèn",  "image": "山", "image_en": "Mountain", "element": "earth", "attribute": "still",      "direction": "NE"},
+  "xun":  {"name_zh": "巽", "pinyin": "Xùn",  "image": "風", "image_en": "Wind",     "element": "wood",  "attribute": "gentle",     "direction": "SE"},
+  "li":   {"name_zh": "離", "pinyin": "Lí",   "image": "火", "image_en": "Fire",     "element": "fire",  "attribute": "clinging",   "direction": "S"},
+  "dui":  {"name_zh": "兌", "pinyin": "Duì",  "image": "澤", "image_en": "Lake",     "element": "metal", "attribute": "joyous",     "direction": "W"}
+}

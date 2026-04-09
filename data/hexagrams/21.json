@@ -1,0 +1,37 @@
+{
+  "number": 21,
+  "name_zh": "噬嗑",
+  "name_full": "火雷噬嗑",
+  "structure": "离上震下",
+  "judgment": "亨。利用狱。",
+  "lines": [
+    {
+      "position": "初九",
+      "text": "屦校灭趾，无咎。"
+    },
+    {
+      "position": "六二",
+      "text": "噬肤灭鼻，无咎。"
+    },
+    {
+      "position": "六三",
+      "text": "噬腊肉，遇毒；小吝，无咎。"
+    },
+    {
+      "position": "九四",
+      "text": "噬干胏，得金矢，利艰贞，吉。"
+    },
+    {
+      "position": "六五",
+      "text": "噬乾肉，得黄金，贞厉，无咎。"
+    },
+    {
+      "position": "上九",
+      "text": "何校灭耳，凶。"
+    }
+  ],
+  "yong": null,
+  "tuan": "",
+  "xiang": "",
+  "wenyan": null
+}

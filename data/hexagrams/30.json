@@ -1,0 +1,37 @@
+{
+  "number": 30,
+  "name_zh": "离",
+  "name_full": "离为火",
+  "structure": "离上离下",
+  "judgment": "利贞，亨。畜牝牛，吉。",
+  "lines": [
+    {
+      "position": "初九",
+      "text": "履错然，敬之无咎。"
+    },
+    {
+      "position": "六二",
+      "text": "黄离，元吉。"
+    },
+    {
+      "position": "九三",
+      "text": "日昃之离，不鼓缶而歌，则大耋之嗟，凶。"
+    },
+    {
+      "position": "九四",
+      "text": "突如其来如，焚如，死如，弃如。"
+    },
+    {
+      "position": "六五",
+      "text": "出涕沱若，戚嗟若，吉。"
+    },
+    {
+      "position": "上九",
+      "text": "王用出征，有嘉折首，获匪其丑，无咎。"
+    }
+  ],
+  "yong": null,
+  "tuan": "",
+  "xiang": "",
+  "wenyan": null
+}

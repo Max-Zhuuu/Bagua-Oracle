@@ -1,0 +1,37 @@
+{
+  "number": 60,
+  "name_zh": "节",
+  "name_full": "水泽节",
+  "structure": "坎上兑下",
+  "judgment": "亨。苦节不可贞。",
+  "lines": [
+    {
+      "position": "初九",
+      "text": "不出户庭，无咎。"
+    },
+    {
+      "position": "九二",
+      "text": "不出门庭，凶。"
+    },
+    {
+      "position": "六三",
+      "text": "不节若，则嗟若，无咎。"
+    },
+    {
+      "position": "六四",
+      "text": "安节，亨。"
+    },
+    {
+      "position": "九五",
+      "text": "甘节，吉；往有尚。"
+    },
+    {
+      "position": "上六",
+      "text": "苦节，贞凶，悔亡。"
+    }
+  ],
+  "yong": null,
+  "tuan": "",
+  "xiang": "",
+  "wenyan": null
+}
