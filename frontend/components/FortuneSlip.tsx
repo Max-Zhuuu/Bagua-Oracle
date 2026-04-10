@@ -55,7 +55,7 @@ export function FortuneSlip({ reading }: FortuneSlipProps) {
 
   return (
     <div
-      className="relative mx-auto w-[320px] max-w-full px-6 py-10 text-ink"
+      className="relative mx-auto w-full max-w-[320px] px-5 py-10 text-ink sm:px-6"
       style={{
         background:
           "linear-gradient(180deg, #faf6ee 0%, #f2ebe0 45%, #efe8dc 100%)",

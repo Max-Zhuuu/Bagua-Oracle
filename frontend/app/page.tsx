@@ -56,13 +56,13 @@ export default function Home() {
 
   return (
     <div className="min-h-screen">
-      <header className="border-b border-ink/10 py-6 text-center">
+      <header className="border-b border-ink/10 py-4 text-center sm:py-6">
         <p className="font-serif text-sm tracking-[0.35em] text-ink/50">
           AI 八卦骨卜
         </p>
       </header>
 
-      <main className="mx-auto max-w-3xl pb-24 pt-8">
+      <main className="mx-auto max-w-3xl pb-12 pt-4 sm:pb-24 sm:pt-8">
         <AnimatePresence mode="wait">
           {flow === "question" && (
             <motion.div
