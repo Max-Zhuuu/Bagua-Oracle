@@ -2,4 +2,3 @@ fastapi
 pydantic>=2
 anthropic
 python-dotenv
-mangum
