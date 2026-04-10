@@ -4,8 +4,5 @@
       "runtime": "python3.12",
       "includeFiles": "{src/**,data/**}"
     }
-  },
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/api/index" }
-  ]
+  }
 }
