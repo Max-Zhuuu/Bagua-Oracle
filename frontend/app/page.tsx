@@ -55,14 +55,14 @@ export default function Home() {
   );
 
   return (
-    <div className="min-h-screen">
-      <header className="border-b border-ink/10 py-4 text-center sm:py-6">
+    <div className="flex h-[100dvh] flex-col overflow-hidden">
+      <header className="shrink-0 border-b border-ink/10 py-2 text-center sm:py-3">
         <p className="font-serif text-sm tracking-[0.35em] text-ink/50">
           AI 八卦骨卜
         </p>
       </header>
 
-      <main className="mx-auto max-w-3xl pb-12 pt-4 sm:pb-24 sm:pt-8">
+      <main className="relative mx-auto w-full max-w-3xl flex-1 overflow-hidden">
         <AnimatePresence mode="wait">
           {flow === "question" && (
             <motion.div
@@ -71,6 +71,7 @@ export default function Home() {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.4 }}
+              className="h-full"
             >
               <QuestionStage
                 onCommit={(q) => {
@@ -88,6 +89,7 @@ export default function Home() {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.4 }}
+              className="h-full"
             >
               <ThrowStage
                 key="throw-user"
@@ -110,6 +112,7 @@ export default function Home() {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.4 }}
+              className="h-full"
             >
               <ThrowStage
                 key="throw-oracle"
@@ -134,6 +137,7 @@ export default function Home() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
+              className="h-full"
             >
               <LoadingStage />
             </motion.div>
@@ -145,6 +149,7 @@ export default function Home() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
+              className="h-full"
             >
               <ReadingStage reading={reading} onAskAnother={reset} />
             </motion.div>
@@ -155,7 +160,7 @@ export default function Home() {
               key="err"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              className="mx-auto max-w-md px-6 py-16 text-center"
+              className="mx-auto flex h-full max-w-md flex-col items-center justify-center px-6 text-center"
             >
               <p className="font-serif text-xl text-ink">{error}</p>
               <p className="mt-4 text-sm text-ink/50">

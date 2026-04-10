@@ -34,15 +34,19 @@ export function ReadingStage({ reading, onAskAnother }: ReadingStageProps) {
   }
 
   return (
-    <div className="mx-auto flex max-w-lg flex-col items-center gap-12 px-4 py-12">
-      <FortuneSlip reading={reading} />
-      <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
-        <Button type="button" variant="outline" onClick={onAskAnother}>
-          Ask another question
-        </Button>
-        <Button type="button" onClick={keep}>
-          Keep this reading
-        </Button>
+    <div className="mx-auto flex h-full max-w-lg flex-col">
+      <div className="flex-1 overflow-y-auto px-4 py-4 sm:py-6">
+        <FortuneSlip reading={reading} />
+      </div>
+      <div className="shrink-0 border-t border-ink/10 bg-bone px-4 py-3">
+        <div className="flex flex-col gap-2 sm:flex-row sm:justify-center">
+          <Button type="button" variant="outline" onClick={onAskAnother}>
+            Ask another question
+          </Button>
+          <Button type="button" onClick={keep}>
+            Keep this reading
+          </Button>
+        </div>
       </div>
     </div>
   );

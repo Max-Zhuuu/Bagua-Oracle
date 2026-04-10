@@ -22,7 +22,7 @@ export function QuestionStage({ onCommit }: QuestionStageProps) {
   };
 
   return (
-    <div className="mx-auto flex max-w-md flex-col items-center gap-8 px-5 py-10 text-center sm:gap-12 sm:px-6 sm:py-16">
+    <div className="mx-auto flex h-full max-w-md flex-col items-center justify-center gap-6 px-5 text-center sm:gap-10 sm:px-6">
       <h1 className="font-serif text-3xl font-medium tracking-tight text-ink md:text-4xl">
         What weighs on your mind?
       </h1>

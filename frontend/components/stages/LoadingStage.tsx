@@ -8,7 +8,7 @@ export function LoadingStage() {
   const pattern = useMemo(() => [0, 1, 0, 1, 0, 1] as const, []);
 
   return (
-    <div className="mx-auto flex max-w-sm flex-col items-center gap-10 px-6 py-20 text-center">
+    <div className="mx-auto flex h-full max-w-sm flex-col items-center justify-center gap-6 px-6 text-center sm:gap-10">
       <p className="font-serif text-xl text-ink/90 md:text-2xl">
         The oracle is consulting the 易經…
       </p>

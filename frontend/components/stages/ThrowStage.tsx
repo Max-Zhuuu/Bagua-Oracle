@@ -207,43 +207,45 @@ export function ThrowStage({
     (phase === "closed" || phase === "shaking");
 
   return (
-    <div className="mx-auto flex max-w-lg flex-col items-center gap-6 px-5 py-8 text-center sm:gap-8 sm:px-6 sm:py-12">
+    <div className="mx-auto flex h-full max-w-lg flex-col items-center justify-center gap-4 px-5 text-center sm:gap-6 sm:px-6">
       <div>
-        <h2 className="font-serif text-2xl font-medium text-ink md:text-3xl">
+        <h2 className="font-serif text-xl font-medium text-ink sm:text-2xl md:text-3xl">
           {headline}
         </h2>
         {subline && (
-          <p className="mt-4 text-sm leading-relaxed text-ink/55 md:text-base">
+          <p className="mt-2 text-xs leading-relaxed text-ink/55 sm:text-sm md:text-base">
             {subline}
           </p>
         )}
       </div>
 
-      <div className="relative flex min-h-[180px] w-full flex-col items-center justify-center sm:min-h-[200px]">
-        <TurtleShell
-          pose={shellOpen ? "open" : "closed"}
-          isShaking={isShakingPhase}
-          className="z-10"
-        />
+      {phase !== "result" && (
+        <div className="relative flex min-h-[140px] w-full flex-col items-center justify-center sm:min-h-[180px]">
+          <TurtleShell
+            pose={shellOpen ? "open" : "closed"}
+            isShaking={isShakingPhase}
+            className="z-10"
+          />
 
-        <AnimatePresence>
-          {phase === "scanning" && (
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              className="pointer-events-none absolute inset-0 z-20 flex items-center justify-center bg-bone/80 backdrop-blur-[2px]"
-            >
-              <p className="font-serif text-lg text-jade">Reading the bones…</p>
+          <AnimatePresence>
+            {phase === "scanning" && (
               <motion.div
-                className="absolute inset-6 rounded border border-jade/25"
-                animate={{ opacity: [0.3, 0.7, 0.3] }}
-                transition={{ repeat: Infinity, duration: 1.2 }}
-              />
-            </motion.div>
-          )}
-        </AnimatePresence>
-      </div>
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                className="pointer-events-none absolute inset-0 z-20 flex items-center justify-center bg-bone/80 backdrop-blur-[2px]"
+              >
+                <p className="font-serif text-lg text-jade">Reading the bones…</p>
+                <motion.div
+                  className="absolute inset-6 rounded border border-jade/25"
+                  animate={{ opacity: [0.3, 0.7, 0.3] }}
+                  transition={{ repeat: Infinity, duration: 1.2 }}
+                />
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </div>
+      )}
 
       {mode === "user" && phase === "prep" && (
         <Button type="button" variant="outline" onClick={closeLid}>
@@ -311,14 +313,15 @@ export function ThrowStage({
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="flex w-full flex-col items-center gap-6 sm:gap-10"
+          className="flex w-full flex-col items-center gap-4 sm:gap-8"
         >
-          <Bones faces={faces} jitter={false} />
+          <Bones faces={faces} jitter={false} compact />
           <Trigram
             lines={lines}
             trigramId={trigramId}
             label={mode === "user" ? "Lower trigram" : "Upper trigram"}
             animateIn
+            compact
           />
         </motion.div>
       )}
