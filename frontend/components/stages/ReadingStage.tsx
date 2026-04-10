@@ -3,6 +3,8 @@
 import type { Reading } from "@/lib/types";
 import { FortuneSlip } from "@/components/FortuneSlip";
 import { Button } from "@/components/ui/button";
+import { AnimatePresence, motion } from "framer-motion";
+import { useState } from "react";
 
 const STORAGE_KEY = "bagua_oracle_readings_v1";
 
@@ -12,7 +14,10 @@ interface ReadingStageProps {
 }
 
 export function ReadingStage({ reading, onAskAnother }: ReadingStageProps) {
+  const [saved, setSaved] = useState(false);
+
   function keep() {
+    if (saved) return;
     try {
       const prev = JSON.parse(
         typeof window !== "undefined"
@@ -28,6 +33,7 @@ export function ReadingStage({ reading, onAskAnother }: ReadingStageProps) {
         STORAGE_KEY,
         JSON.stringify([entry, ...prev].slice(0, 50))
       );
+      setSaved(true);
     } catch {
       /* ignore */
     }
@@ -43,10 +49,33 @@ export function ReadingStage({ reading, onAskAnother }: ReadingStageProps) {
           <Button type="button" variant="outline" onClick={onAskAnother}>
             Ask another question
           </Button>
-          <Button type="button" onClick={keep}>
-            Keep this reading
+          <Button
+            type="button"
+            onClick={keep}
+            disabled={saved}
+            aria-live="polite"
+            className={
+              saved
+                ? "border-jade/30 bg-jade/10 text-jade hover:bg-jade/10 disabled:opacity-100"
+                : undefined
+            }
+          >
+            {saved ? "✓ Kept" : "Keep this reading"}
           </Button>
         </div>
+        <AnimatePresence>
+          {saved && (
+            <motion.p
+              initial={{ opacity: 0, y: -4 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.3 }}
+              className="mt-2 text-center text-[11px] uppercase tracking-[0.25em] text-jade/70"
+            >
+              Saved to this device
+            </motion.p>
+          )}
+        </AnimatePresence>
       </div>
     </div>
   );

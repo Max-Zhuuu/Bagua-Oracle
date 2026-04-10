@@ -106,6 +106,11 @@ export function ThrowStage({
 
   const { isShaking: motionShaking, hasReceivedEvents } = useShakeDetection({
     enabled: motionEnabled,
+    // Feel-tuned: ask for a slightly more deliberate shake than the defaults
+    // so casting the bones feels intentional, not accidental.
+    threshold: 20,
+    requiredPeaks: 5,
+    windowMs: 1500,
     onShakeComplete: runReveal,
   });
 
