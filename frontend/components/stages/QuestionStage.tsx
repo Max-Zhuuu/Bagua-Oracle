@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { useState } from "react";
+import { useRef, useState } from "react";
 
 interface QuestionStageProps {
   onCommit: (q: string) => void;
@@ -10,6 +10,16 @@ interface QuestionStageProps {
 
 export function QuestionStage({ onCommit }: QuestionStageProps) {
   const [value, setValue] = useState("");
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  const handleCommit = () => {
+    // Blur the input before unmounting so iOS drops undo-history tracking
+    // for this field — otherwise a subsequent device shake triggers the
+    // native "Undo Typing?" alert on top of our shake-to-roll gesture.
+    inputRef.current?.blur();
+    (document.activeElement as HTMLElement | null)?.blur();
+    onCommit(value.trim());
+  };
 
   return (
     <div className="mx-auto flex max-w-md flex-col items-center gap-8 px-5 py-10 text-center sm:gap-12 sm:px-6 sm:py-16">
@@ -17,6 +27,7 @@ export function QuestionStage({ onCommit }: QuestionStageProps) {
         What weighs on your mind?
       </h1>
       <Input
+        ref={inputRef}
         value={value}
         onChange={(e) => setValue(e.target.value)}
         placeholder=""
@@ -27,7 +38,7 @@ export function QuestionStage({ onCommit }: QuestionStageProps) {
       <Button
         type="button"
         disabled={!value.trim()}
-        onClick={() => onCommit(value.trim())}
+        onClick={handleCommit}
         className="w-full sm:w-auto sm:min-w-[200px]"
       >
         Hold the question

@@ -13,6 +13,10 @@ import {
   type MotionPermissionState,
 } from "@/lib/motionPermission";
 import { playRattleTick } from "@/lib/sounds";
+import {
+  consumeIosFirstResponder,
+  installIosUndoBlocker,
+} from "@/lib/suppressIosUndo";
 import { useShakeDetection } from "@/lib/useShakeDetection";
 import { AnimatePresence, motion } from "framer-motion";
 import { useCallback, useEffect, useRef, useState } from "react";
@@ -60,6 +64,9 @@ export function ThrowStage({
   //    and let the first-event probe decide if a real sensor exists.
   useEffect(() => {
     if (mode !== "user") return;
+    // Block iOS's native "Undo Typing" response to shake gestures while the
+    // user is in the throw flow. Safe no-op on other platforms.
+    installIosUndoBlocker();
     if (!hasMotionApi()) {
       setMotionStatus("unsupported");
       return;
@@ -135,7 +142,12 @@ export function ThrowStage({
     return () => window.clearTimeout(t);
   }, [mode, motionStatus, phase, hasReceivedEvents]);
 
-  const closeLid = () => setPhase("closed");
+  const closeLid = () => {
+    // Hand iOS's first-responder text context off to an empty ghost input so
+    // the native "Undo Typing?" alert has nothing to offer when we shake.
+    consumeIosFirstResponder();
+    setPhase("closed");
+  };
 
   // Hold-button handlers (fallback path only).
   const startShake = () => {
@@ -147,6 +159,9 @@ export function ThrowStage({
   };
 
   const handleAllowMotion = async () => {
+    // Same tap gesture we use to request permission — also a good moment to
+    // reset the iOS first-responder in case the user skipped closeLid.
+    consumeIosFirstResponder();
     const result = await requestMotionPermission();
     setMotionStatus(result);
     if (result === "granted") {
